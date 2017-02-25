@@ -25,7 +25,7 @@ token_definitions = [
     (r'int',                    KEYWORD),
     (r'if',                     KEYWORD),
     (r'else',                   KEYWORD),
-    (r'[0-9]+',                 NUMBER),
+    (r'[0-9]',                 NUMBER),
     (r'[A-Za-z][A-Za-z0-9_]*',  IDENTIFIER),
 
     ]
